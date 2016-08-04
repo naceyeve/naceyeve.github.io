@@ -296,8 +296,8 @@
       
         
           
-            <p>###思路：将作为库的Module放在新的工程A中，工程B引用工程A。</p>
-<p>###使用场景：该Module库不够完善，需要经常修改。</p>
+            <p>思路：将作为库的Module放在新的工程A中，工程B引用工程A。</p>
+<p>使用场景：该Module库不够完善，需要经常修改。</p>
 <ol>
 <li>新建一个工程MyLiabray，导入Module,名为sdk_2026;</li>
 <li><p>在工程MyApplication中引用工程MyLiabray;<br>设置setting.gradle</p>
@@ -307,7 +307,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compile project (&apos;:MyApplication:sdk_2026&apos;)</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>###至此完成，可修改工程MyLiabray下的sdk_2026，一处修改，多处引用。</p>
+<p>至此完成，可修改工程MyLiabray下的sdk_2026，一处修改，多处引用。</p>
 
           
         
